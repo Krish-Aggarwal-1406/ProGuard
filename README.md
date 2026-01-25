@@ -1,73 +1,89 @@
-# Welcome to your Lovable project
+# ProGuard - Integrity & Commitment Management Platform
 
-## Project info
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?logo=tailwindcss)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-3_Flash-4285F4?logo=google)
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🚀 Overview
 
-## How can I edit this code?
+ProGuard is a next-generation **Integrity & Commitment Management Platform** designed to bridge the trust gap in modern remote and hybrid work environments. Unlike invasive "bossware" solutions, ProGuard uses **rule-based accountability** to monitor professional exclusivity and personal commitments.
 
-There are several ways of editing your application.
+## ✨ Key Features
 
-**Use Lovable**
+### 🔄 Dual-Mode Interface
+- **Professional Dashboard** (Slate/Emerald theme): HR, Admin, and Employee workforce compliance
+- **Personal Dashboard** (Indigo theme): Private space for tracking personal connections and integrity scores
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### 🤖 AI-Powered Intelligence Hub
+Powered by **Google Gemini 3 Flash**, the AI performs automated Integrity Audits:
+- Analyzes tasks, user warnings, and historical violations
+- Generates structured reports with Risk Levels (Low/Medium/High)
+- Provides actionable recommendations for compliance improvement
 
-Changes made via Lovable will be committed automatically to this repo.
+### ⚖️ Exclusivity & Conflict Engine
+- **Professional Exclusivity**: Flags employees attempting to join multiple exclusive organizations
+- **3-Strike System**: Automatic flagging after 3 compliance violations
+- **Personal Conflict Detection**: Alerts for conflicting exclusive personal connections
 
-**Use your preferred IDE**
+### 📊 Productivity Tracking
+- Task lifecycle management: Working → Temporarily Unavailable → Not Working
+- Real-time integrity status visibility for admin users
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+| Technology | Purpose |
+|------------|---------|
+| **React 19** | UI Framework |
+| **TypeScript** | Type Safety |
+| **Tailwind CSS** | Utility-first Styling |
+| **Framer Motion** | Animations |
+| **Google Gemini AI** | Intelligence Hub Audits |
+| **Vite** | Build Tool |
+| **shadcn/ui** | Component Library |
 
-Follow these steps:
+## 📂 Architecture
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+├── components/
+│   ├── LandingPage.tsx          # Marketing front-end
+│   ├── Onboarding.tsx           # Integrity Oath flow
+│   ├── ProfessionalDashboard.tsx # Workforce management + AI Hub
+│   ├── PersonalDashboard.tsx    # Private commitment tracking
+│   └── IntegrityMeter.tsx       # Dynamic SVG gauge
+├── hooks/
+│   └── useProGuardState.tsx     # Central state management
+└── pages/
+    └── Index.tsx                # View routing
 ```
 
-**Edit a file directly in GitHub**
+## 🚦 Getting Started
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+# Install dependencies
+npm install
 
-**Use GitHub Codespaces**
+# Start development server
+npm run dev
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Build for production
+npm run build
+```
 
-## What technologies are used for this project?
+## 🎯 Demo Flow
 
-This project is built with:
+1. Click **"Enter Platform"** from the landing page
+2. Select a user profile (try **Sarah Chen** as Admin)
+3. Accept the **Integrity Oath**
+4. Navigate to the **Intelligence Hub** tab
+5. Run an **AI Audit** to see Gemini-powered insights
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🔗 Links
 
-## How can I deploy this project?
+- **Live Demo**: [commitment-shield.lovable.app](https://commitment-shield.lovable.app)
+- **Built with**: [Lovable](https://lovable.dev)
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 📄 License
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+MIT License - Built with ❤️ using Google AI technology
