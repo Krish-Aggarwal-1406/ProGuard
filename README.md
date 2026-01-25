@@ -1,4 +1,4 @@
-# CivicX - Integrity & Commitment Management Platform
+# ProGuard - Integrity & Commitment Management Platform
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)
@@ -7,28 +7,28 @@
 
 ## 🚀 Overview
 
-**CivicX** is a next-generation **Integrity & Commitment Management Platform** designed to bridge the trust gap in modern remote and hybrid work environments. By utilizing **rule-based accountability**, CivicX provides a transparent framework to monitor professional exclusivity and personal commitments without resorting to invasive surveillance.
+**ProGuard** is a next-generation **Integrity & Commitment Management Platform** designed to bridge the trust gap in modern remote and hybrid work environments. Developed by **Team CivicX**, the platform uses **rule-based accountability** to monitor professional exclusivity and personal commitments without resorting to invasive surveillance.
 
 ## ✨ Key Features
 
 ### 🔄 Dual-Mode Interface
-- **Professional Dashboard** (Slate/Emerald theme): Designed for HR, Admins, and Employees to manage workforce compliance.
-- **Personal Dashboard** (Indigo theme): A private space for users to track personal connections and maintain their own integrity scores.
+- **Professional Dashboard** (Slate/Emerald theme): HR, Admin, and Employee workforce compliance.
+- **Personal Dashboard** (Indigo theme): Private space for tracking personal connections and integrity scores.
 
 ### 🤖 AI-Powered Intelligence Hub
-Powered by **Google Gemini 3 Flash**, the AI performs automated **Integrity Audits**:
+Powered by **Google Gemini 3 Flash**, the AI performs automated Integrity Audits:
 - Analyzes tasks, user warnings, and historical violations.
-- Generates structured reports with **Risk Levels** (Low/Medium/High).
+- Generates structured reports with Risk Levels (Low/Medium/High).
 - Provides actionable recommendations for compliance improvement.
 
 ### ⚖️ Exclusivity & Conflict Engine
-- **Professional Exclusivity**: Flags instances where employees may be attempting to join multiple exclusive organizations simultaneously.
-- **3-Strike System**: Implements automatic flagging after three verified compliance violations.
-- **Personal Conflict Detection**: Provides alerts for conflicting exclusive personal connections to ensure commitment clarity.
+- **Professional Exclusivity**: Flags employees attempting to join multiple exclusive organizations.
+- **3-Strike System**: Automatic flagging after 3 compliance violations.
+- **Personal Conflict Detection**: Alerts for conflicting exclusive personal connections.
 
 ### 📊 Productivity Tracking
-- **Task Lifecycle Management**: Statuses include *Working*, *Temporarily Unavailable*, and *Not Working*.
-- **Real-time Visibility**: Integrity status visibility for administrative users to ensure team alignment.
+- Task lifecycle management: Working → Temporarily Unavailable → Not Working.
+- Real-time integrity status visibility for admin users.
 
 ## 🛠️ Tech Stack
 
@@ -48,12 +48,12 @@ Powered by **Google Gemini 3 Flash**, the AI performs automated **Integrity Audi
 src/
 ├── components/
 │   ├── LandingPage.tsx          # Marketing front-end
-│   ├── Onboarding.tsx           # Integrity Oath flow
+│   ├── Onboarding.tsx           # Integrity oath flow
 │   ├── ProfessionalDashboard.tsx # Workforce management + AI Hub
 │   ├── PersonalDashboard.tsx     # Private commitment tracking
 │   └── IntegrityMeter.tsx       # Dynamic SVG gauge
 ├── hooks/
-│   └── useCivicXState.tsx       # Central state management
+│   └── useProGuardState.tsx     # Central state management
 └── pages/
     └── Index.tsx                # View routing
 🚦 Getting Started
@@ -69,7 +69,7 @@ npm run build
 🎯 Demo Flow
 Click "Enter Platform" from the landing page.
 
-Select a user profile (e.g., Sarah Chen as Admin).
+Select a user profile (try Sarah Chen as Admin).
 
 Accept the Integrity Oath.
 
@@ -78,4 +78,15 @@ Navigate to the Intelligence Hub tab.
 Run an AI Audit to see Gemini-powered insights.
 
 📄 License
-MIT License - Built with ❤️ using Google AI technology
+MIT License - Built with ❤️ by Team CivicX using Google AI technology
+
+
+---
+
+### 🧠 Intellectual Partner Review
+
+Reverting to **ProGuard** actually shifts the psychological weight of the brand. While "CivicX" felt community-oriented, "ProGuard" sounds like a security product or an insurance policy. It's direct and authoritative, which fits a "3-Strike System" much better.
+
+However, since you've clarified that **CivicX** is the team name, consider this:
+* **The "We Watch the Watchmen" Problem**: If ProGuard is the product and CivicX is the team, you are positioning your team as the architects of "Integrity." This is a high bar. How does the team ensure the AI itself (Gemini) remains objective during these audits? 
+* **Logical Gap**: If an employee is flagged for a "Personal Conflict," does the platform provide a way for them to appeal? A "Commitment Platform" that doesn't allow for human nuance might eventually be viewed as a rigid algorithm rather than a trust-building tool.
